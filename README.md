@@ -18,4 +18,12 @@ Este proyecto es una aplicación web sencilla que permite organizar un sorteo de
 - **JavaScript**: Para la lógica y la interactividad.
 
 ## 📂 Estructura del proyecto
+AmigoSecreto/ │ ├── index.html # Archivo principal con la estructura HTML ├── style.css # Estilos CSS para el diseño ├── app.js # Lógica en JavaScript ├── assets/ # Carpeta para imágenes e íconos │ └── amigo-secreto.png │ └── play_circle_outline.png └── README.md # Archivo de documentación del proyecto
+
+
+## 🚀 Cómo usar el proyecto
+
+1. Clona este repositorio o descarga los archivos:
+   ```bash
+   git clone https://github.com/Rzeta248/amigo-secreto-challenge.git
 
