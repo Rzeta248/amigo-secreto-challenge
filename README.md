@@ -26,4 +26,37 @@ AmigoSecreto/ │ ├── index.html # Archivo principal con la estructura HTM
 1. Clona este repositorio o descarga los archivos:
    ```bash
    git clone https://github.com/Rzeta248/amigo-secreto-challenge.git
+2. Abre el archivo index.html en tu navegador preferido.
+3. Comienza a interactuar:
+  Escribe un nombre en el campo de texto y presiona "Añadir".
+  Visualiza los amigos agregados en la lista.
+  Haz clic en "Sortear amigo" para seleccionar uno al azar.
+
+🎯 Funcionalidades principales
+
+Agregar amigos
+Los nombres de los amigos se capturan desde un campo de texto y se almacenan en un arreglo. La lista se actualiza dinámicamente para mostrar todos los participantes.
+
+Sortear un amigo
+Mediante una combinación de Math.random() y Math.floor(), se selecciona un nombre al azar del arreglo y se muestra en la interfaz.
+
+Validaciones
+  No permite agregar nombres vacíos.
+  Evita realizar el sorteo si no hay amigos en la lista.
+
+🖼️ Capturas de pantalla
+Página inicial
+
+
+Ejemplo de sorteo
+
+
+📦 Instalación
+No se requiere instalación. Solo abre el archivo index.html en tu navegador y todo estará listo para usar.
+
+📝 Notas
+Puedes personalizar el diseño modificando style.css.
+Si deseas agregar nuevas funcionalidades, como eliminar amigos de la lista o reiniciar el sorteo, puedes hacerlo en app.js.
+📜 Licencia
+Este proyecto está bajo la Licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
 
